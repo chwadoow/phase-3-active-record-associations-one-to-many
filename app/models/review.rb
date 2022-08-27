@@ -1,3 +1,4 @@
 class Review < ActiveRecord::Base
-  
-end
+    # a review belongs to a game
+    belongs_to :game
+  end
